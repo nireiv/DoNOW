@@ -1,0 +1,24 @@
+{
+  "name": "donow",
+  "version": "1.0.0",
+  "description": "Backend for DoNOW website. This website used to make to do list. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Monica Vierin Pasman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
+    "pg": "^8.11.5",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
